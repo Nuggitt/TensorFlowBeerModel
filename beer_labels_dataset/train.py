@@ -31,6 +31,7 @@ plt.plot(history.history['val_loss'], label='Validation Loss')
 plt.legend()
 plt.show()
 
+
 # Evaluate the model on the test set
 test_loss, test_acc = model.evaluate(test_generator, steps=test_generator.samples // test_generator.batch_size)
 print(f"Test accuracy: {test_acc * 100:.2f}%")
