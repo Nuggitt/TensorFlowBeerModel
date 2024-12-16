@@ -9,6 +9,7 @@ test_dir = 'beer_labels_dataset/test/'
 # Setup the data generators
 train_generator, validation_generator, test_generator = setup_data_generators(train_dir, validation_dir, test_dir)
 
+
 # Create the model
 model = create_model()
 
@@ -16,7 +17,7 @@ model = create_model()
 history = model.fit(
     train_generator,
     steps_per_epoch=train_generator.samples // train_generator.batch_size,
-    epochs=30,  # Fewer epochs for simplicity
+    epochs=1000,  # Fewer epochs for simplicity
     validation_data=validation_generator,
     validation_steps=validation_generator.samples // validation_generator.batch_size
 )
@@ -35,3 +36,5 @@ plt.show()
 # Evaluate the model on the test set
 test_loss, test_acc = model.evaluate(test_generator, steps=test_generator.samples // test_generator.batch_size)
 print(f"Test accuracy: {test_acc * 100:.2f}%")
+print(train_generator.class_indices)
+prediction_probabilities = model.predict(test_generator)

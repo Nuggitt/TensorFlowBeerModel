@@ -1,8 +1,7 @@
 {
-    "image":"heineken.png",
-    "name": "Heineken",
+    "image": "budweiser_3.png",
+    "name": "Budweiser",
     "style": "Lager",
     "abv": "5.0%",
     "volume": "330ml"
   }
-  
