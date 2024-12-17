@@ -1,0 +1,44 @@
+{
+    "0": {
+        "name": "Budweiser",
+        "style": "Dark Lager",
+        "abv": 5.0,
+        "volume": 330,
+        "image": "beer_labels_dataset/train/Budweiser/budweiser.png"
+    },
+    "1": {
+        "name": "Carlsberg Pilsner",
+        "style": "Pilsner",
+        "abv": 5.0,
+        "volume": 330,
+        "image": "beer_labels_dataset/train/Carlsberg/carlsberg_pilsner.jpg"
+    },
+    "2": {
+        "name": "Corona Extra",
+        "style": "Lager",
+        "abv": 4.5,
+        "volume": 330,
+        "image": "beer_labels_dataset/train/Corona/corona_extra.png"
+    },
+    "3": {
+        "name": "Guinness Foreign Extra Stout",
+        "style": "Stout",
+        "abv": 7.5,
+        "volume": 330,
+        "image": "beer_labels_dataset/train/Guinness/guiness_foreign_stout.jpg"
+    },
+    "4": {
+        "name": "Heineken",
+        "style": "Pale Lager",
+        "abv": 5.0,
+        "volume": 330,
+        "image": "beer_labels_dataset/train/Heineken/heineken.png"
+    },
+    "5": {
+        "name": "Tuborg Classic",
+        "style": "Light Lager",
+        "abv": 5.0,
+        "volume": 330,
+        "image": "beer_labels_dataset/train/Tuborg/tuborg-classic.jpg"
+    }
+}

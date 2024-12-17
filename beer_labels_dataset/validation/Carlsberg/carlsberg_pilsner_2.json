@@ -1,8 +1,8 @@
 {
-    "image":"carlsberg_pilsner_2.jpg",
     "name": "Carlsberg Pilsner",
     "style": "Pilsner",
-    "abv": "5.0%",
-    "volume": "330ml"
+    "abv": 5.0,
+    "volume": 330,
+    "image": "beer_labels_dataset/validation/Carlsberg/carlsberg_pilsner_2.jpg"
   }
   

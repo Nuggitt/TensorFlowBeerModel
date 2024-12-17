@@ -1,7 +1,7 @@
 {
-    "image": "budweiser_2.png",
     "name": "Budweiser",
     "style": "Lager",
-    "abv": "5.0%",
-    "volume": "330ml"
+    "abv": 5.0,
+    "volume": 330,
+    "image": "beer_labels_dataset/validation/Budweiser/budweiser_2.png"
   }

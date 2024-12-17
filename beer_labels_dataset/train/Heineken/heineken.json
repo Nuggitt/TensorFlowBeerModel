@@ -1,8 +1,9 @@
 {
-    "image":"heineken.png",
     "name": "Heineken",
     "style": "Lager",
-    "abv": "5.0%",
-    "volume": "330ml"
+    "abv": 5.0,
+    "volume": 330,
+    "image": "beer_labels_dataset/train/Heineken/heineken.png"
+
   }
   

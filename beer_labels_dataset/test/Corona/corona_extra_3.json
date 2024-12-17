@@ -1,8 +1,7 @@
 {
-    "image":"corona_extra_3.png",
-    "name": "Corona Extra",
-    "style": "Pale Lager",
-    "abv": "4.5%",
-    "volume": "330ml"
-  }
-  
+  "name": "Corona Extra",
+  "style": "Lager",
+  "abv": 4.5,
+  "volume": 330,
+  "image": "beer_labels_dataset/test/Corona/corona_extra_3.png"
+}
